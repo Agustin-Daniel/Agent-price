@@ -1,0 +1,467 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root h1, h2, h3, h4, h5, h6{
+    margin: 0 !important;
+}
+
+
+
+.elementor-container{
+    display: flex;
+    justify-content: center;
+    background: rgb(211, 211, 211);
+}
+
+.container-root {
+    background-color: rgb(230, 230, 230);
+    width: 1200px;
+    min-height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* dashboard Section */
+.dashboardSection {
+    width: 32%;
+    background-color: white;
+    margin-right: 50px;
+    min-width: 308px;
+}
+
+.dashboard{
+    margin-bottom: 25px;
+    padding: 40px 40px 10px;
+    box-shadow: none;
+    border: 2px solid #080808;
+    position: sticky;
+    top: 0;
+}
+
+
+/* price zone (bottom) */
+.month-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.setup-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #888;
+}
+
+.price{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.setup-container span{
+    font-family: "Montserrat", sans-serif;
+}
+.setup__sume{
+    margin-right: 5px;
+}
+.setup__label{
+    margin-left: 5px;
+}
+.setup__value{
+    font-weight: 900;
+    color: #080808;
+}
+.setup__dollar{
+    font-weight: 900;
+    color: #080808;
+}
+
+/* Label under price */
+
+.under-prece-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #888;
+}
+
+.under-prece-container span{
+    font-family: "Montserrat", sans-serif;
+    /* color: #EEA620; */
+}
+
+
+
+/* button price */
+
+
+.price-button{
+    width: 100%;
+    background-color: #039EFB;
+    margin-top: 20px;
+    transition: all .3s;
+}
+.start-button{
+    width: 100%;
+    background-color: #039EFB;
+    transition: all .3s;
+}
+
+.price-button:hover{
+    background-color: #0E1542;
+}
+.price-button-a{
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    padding: 19px 0;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+}
+
+.price-button-a.disabled{
+    cursor: not-allowed;
+    /* pointer-events: none; */
+}
+
+/* ------------NextUi---------------- */
+
+.svg-check{
+    margin-right: 10px;
+    max-height: 15px;
+    margin-top: 6px;
+}
+
+.svg-littlecheck{
+    margin-right: 5px;
+}
+
+
+.nextui-c-lfcDHB{
+    padding: 0 !important;
+}
+
+
+/* svg togle */
+.nextui-c-hPzDAx-TDdeu-visible-false .nextui-collapse-title-content-right svg{
+    transform: rotateZ(-90deg) !important;
+}
+
+.li-price {
+    margin-bottom: 0 !important;
+    list-style: none;
+    }
+    
+    /* li > span */
+    .check-item{
+        font-family: 'Mulish', sans-serif;
+        line-height: 28px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    /* collapse content */
+    .nextui-c-hPzDAx-ibiRLao-css{
+        /* padding: 15px 0px 15px 0px !important; */
+        /* border-bottom: 2px solid #ffffff !important; */
+        margin-bottom: 10px;
+        margin-top: 0 !important;
+    }
+
+    /* li padding */
+    .nextui-c-fMAxGR{
+        padding: 15px 0 0 0 !important;
+        /* width: 242px !important; */
+    }
+
+/* /////////////////// */
+
+
+
+
+
+
+/* copypaste */
+.acordeon{
+    width: 100%;
+}
+.acordeon .bloque{
+    margin-bottom: 1em;
+}
+.acordeon .h2{
+    background-color: rgb(215, 215, 215);
+    margin-bottom: 12px;
+    padding: 0.5em;
+    cursor: pointer;
+}
+.acordeon .contenido{
+    background-color: aquamarine;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+
+.acordeon .bloque.activo .contenido{
+    height: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////// */
+/* addonsSection */
+
+.addonsSection {
+    width: 60%;
+    background-color: azure;
+}
+
+.category-container {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    margin-bottom: 16px;
+}
+
+.category-container span{
+    color: #333;
+    font-family: 'Mulish', sans-serif;
+    font-size: 12px;
+    font-weight: 800;
+    margin-left: 5px;
+    letter-spacing: .5px;
+    font-style: ExtraBold;
+}
+
+.category {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    color: #333;
+    letter-spacing: .5px;
+}
+
+
+/* General cards */
+.card {
+    background-color: white;
+    border: solid 2px black;
+    padding: 28px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+
+.card-title{
+    font-size: 18px;
+    line-height: 28px;
+    color: #333;
+    margin-bottom: 5px;
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 800;
+}
+.card-title a{
+    color: #333 !important;
+    transition: all .3s;
+}
+.card-title a:hover{
+    color: #039EFB!important;
+}
+
+.card-pricing{
+    display: flex;
+    align-items: center;
+}
+.card-pricing span{
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.5px;
+    color: #0E1542;
+    font-weight: 800;
+}
+.card-pricing span span{
+    font-family: "Montserrat", sans-serif;
+    color: #0E1542;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+}
+
+.card-button {
+    padding: 12px 20px;
+    background-color: #039EFB;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    color: #ffff;
+}
+.card-button:hover{
+    background-color: #0E1542;
+}
+
+.card-button{
+    border-radius: 0;
+    cursor: pointer;
+    border: none;
+}
+
+.card-button.active{
+    background-color: #EEA620;
+}
+
+.card-p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color: #333;
+    margin-right: 16px;
+}
+
+.addonsContainer{
+    position: relative;
+}
+
+.card-recomend{
+    position: absolute;
+    top: 162px;
+    left: -5px;
+    background: #EEA620;
+    color: #fff;
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    padding: 6px 10px;
+}
+
+.card-container-title{
+    display: flex;
+    align-items: center;
+}
+
+.card-question{
+    cursor: pointer;
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+}
+
+.question-box{
+    visibility: hidden;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 25px 0 rgba(51,51,51,.15);
+    position: absolute;
+    background-color: #ffff;
+    z-index: 9999;
+}
+
+.question-box-list{
+    margin: 0;
+}
+
+.question-box-item{
+    align-items: center;
+    display: flex;
+    margin: 0;
+    width: max-content;
+}
+
+.question-box-item span{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+
+.question-container{
+    margin-top: 4px;
+    position: relative;
+}
+
+.question-container:hover .question-box{
+    visibility: visible;
+    animation: fadein .3s;
+}
+
+.question-check{
+    margin-right: 5px;
+    margin-bottom: 1px;
+}
+
+/* toggle card */
+
+.toggle_card-container{
+    padding: 0 0.75rem 0.75rem 0.75rem;
+}
+
+.toggle_card{
+    background-color: #039EFB;
+    margin-bottom: 0.75rem ;
+    padding: 15px ;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media (max-width: 1025px) {
+    .container-root{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .addonsSection{
+        width: 90%;
+    }
+
+    .dashboardSection{
+        margin: 0;
+        width: 70%;
+    }
+}
+@media (max-width: 688px) {
+    .card-recomend{
+        top: 0;
+        left: 0;
+    }
+
+    .recommended-container-title{
+        margin-top: 10px;
+    }
+
+    .recommended-card{
+        position: relative;
+    }
+}
